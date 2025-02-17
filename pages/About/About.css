@@ -1,0 +1,99 @@
+.about {
+    padding: 0 8rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 50px;
+  }
+
+
+  .aboutsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .aboutsection > p {
+    width: 75%;
+  }
+
+  
+  .textAbout {
+    font-family: "Press Start 2P", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .description {
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .hobbiessection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%; 
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+  .hobbies{
+    font-family: "Press Start 2P", serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .hobbiesList{
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hobbiesList > li{
+    font-family: "Press Start 2P", serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+    line-height: 25px;
+  }
+
+  .icon{
+    font-size: 20px;
+  }
+
+
+  @media (max-width: 950px) {
+    .hobbiessection {
+      grid-template-columns: 1fr;
+      width: 100%;
+      padding: 10px;
+    }
+    .hobbiesList{
+      padding: 0 1rem;
+    }
+    .aboutsection > p {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .about {
+      padding: 0 3rem;
+    }
+  }

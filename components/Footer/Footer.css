@@ -30,9 +30,15 @@ footer {
 }
 
 
-@media (max-width: 510px) {
+@media (max-width: 511px) {
   .ft-logos{
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactfooter {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

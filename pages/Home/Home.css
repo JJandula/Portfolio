@@ -1,21 +1,17 @@
 .home {
   padding: 0 8rem;
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 3rem;
-}
+  margin: 50px 0px 100px 0px;
 
-@media (max-width: 700px) {
-  .home {
-    padding: 0 2rem;
-  }
 }
 
 .home > h1 {
-  font-family: "Fjalla One", serif;
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 1px;
   font-size: 5.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
   -webkit-background-clip: text;
@@ -38,14 +34,14 @@
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 690px) {
   .home {
-    margin-bottom: 100px;
+    padding: 0 4rem;
   }
 }
 
 
-
+/* ANIMACION */
 
 .loader {
   font-weight: bold;
