@@ -47,6 +47,7 @@ nav {
   
   nav a:hover {
     color: var(--highlight);
+    text-shadow: 0 0 1px var(--highlight), 0 0 10px var(--highlight);
   }
 
   nav > h2 {

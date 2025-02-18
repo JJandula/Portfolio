@@ -18,7 +18,12 @@ export const ProjectCard = (project) => `
 
 <div class="detail">
 <p class="project-desc">${project.description}</p>
-<p class="tech">${project.tech.join(" - ")}</p>
+
+<section class="tech">
+<img src="${project.logohtml}" alt="HTML5 logo">
+<img src="${project.logocss}" alt="CSS logo">
+${project.logojs ? `<img src="${project.logojs}" alt="JavaScript logo">` : ''}
+</section>
 </div>
 </div>
 `;

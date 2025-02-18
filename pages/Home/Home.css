@@ -12,8 +12,11 @@
 .home > h1 {
   font-family: "Bebas Neue", serif;
   letter-spacing: 1px;
-  font-size: 5.5rem;
-  background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0 0 5px var(--bg-light), 0 0 50px var(--bg-light);
+  background-color: var(--bg-light);
+  /* background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%); */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,10 +37,15 @@
 }
 
 
-@media (max-width: 690px) {
+@media (max-width: 737px) {
   .home {
     padding: 0 4rem;
   }
+}
+
+.light .home > h1 {
+  text-shadow: 0 0 5px var(--bg-dark), 0 0 50px var(--bg-dark);
+  background-color: var(--bg-dark);
 }
 
 

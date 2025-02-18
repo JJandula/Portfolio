@@ -9,7 +9,7 @@ export const Home = () => {
     
     <p class="text">Hey, I'm</p>
 
-    <h1>Jose Jandula</h1>
+    <h1>Jose Jandula { JJ }</h1>
 
     
 

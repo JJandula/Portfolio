@@ -5,3 +5,7 @@
     display: block;
     margin: 1rem 0;
   }
+
+.light .divider {
+  border-bottom: 1px solid var(--bg-dark);
+}

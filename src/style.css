@@ -55,6 +55,5 @@ p {
   font-size: 1.1rem;
 }
 
-.light .project-card > .header > div > a > img {
-  filter: invert(0%);
-}
+
+
