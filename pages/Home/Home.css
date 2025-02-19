@@ -47,10 +47,10 @@
     padding: 0 4rem;
   }
   .light .home > h1 {
-    text-shadow: 0 0 0px var(--bg-dark), 0 0 10px var(--bg-dark);
+    text-shadow: 0 0 0px var(--bg-dark), 0 0 20px var(--bg-dark);
   }
   .home > h1 {
-    text-shadow: 0 0 0px var(--bg-light), 0 0 10px var(--bg-light);
+    text-shadow: 0 0 0px var(--bg-light), 0 0 20px var(--bg-light);
   }
 
 }
