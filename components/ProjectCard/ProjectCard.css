@@ -43,16 +43,6 @@
     flex-direction: column;
     gap: 1rem;
   }
-  
-  /* .project-card > .detail > .tech{
-    color: var(--highlight);
-    text-shadow: 0 0 10px var(--highlight), 0 0 70px var(--highlight);
-  }
-
-  .light .project-card > .detail > .tech{
-    color: var(--bg-dark);
-    text-shadow: 0 0 0px var(--highlight), 0 0 0px var(--highlight);
-  } */
 
   .project-tittle {
     font-family: "Press Start 2P", serif;
