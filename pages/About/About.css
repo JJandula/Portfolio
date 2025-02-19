@@ -111,3 +111,19 @@
     clip-path: inset(0 -1ch 0 0)
   }
 }
+
+.aboutphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.aboutphoto > img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid var(--highlight);
+  box-shadow: 0 0 10px var(--highlight), 0 0 20px var(--highlight);
+  border-radius: 50%;
+}

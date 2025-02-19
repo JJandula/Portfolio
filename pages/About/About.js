@@ -10,6 +10,11 @@ export const About = () => {
     <h2 class="textAbout">ABOUT ME</h2>
     ${Divider()}
     <div>
+
+    <section class="aboutphoto">
+        <img src="/assets/about-me-1.jpg" alt="JJ Profile Photo">
+    </section>
+    
     
     <section class="aboutsection">
         <p class="description">
