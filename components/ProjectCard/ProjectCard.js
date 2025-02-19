@@ -20,9 +20,11 @@ export const ProjectCard = (project) => `
 <p class="project-desc">${project.description}</p>
 
 <section class="tech">
-<img src="${project.logohtml}" alt="HTML5 logo">
-<img src="${project.logocss}" alt="CSS logo">
+${project.logocss ? `<img src="${project.logocss}" alt="CSS logo">` : ''}
+${project.logohtml ? `<img src="${project.logohtml}" alt="HTML logo">` : ''}
 ${project.logojs ? `<img src="${project.logojs}" alt="JavaScript logo">` : ''}
+${project.logowordpress ? `<img src="${project.logowordpress}" alt="WordPress logo">` : ''}
+${project.logowoocommerce ? `<img src="${project.logowoocommerce}" alt="WooCommerce logo">` : ''}
 </section>
 </div>
 </div>

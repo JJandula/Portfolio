@@ -18,7 +18,7 @@ export const About = () => {
     
     <section class="aboutsection">
         <p class="description">
-            Actualmente, soy estudiante de Desarrollo de Aplicaciones Web (DAW) y estoy cursando un Máster en Full Stack. Durante los últimos 7 años, he trabajado con WordPress, desarrollando soluciones personalizadas y optimizadas para diversas necesidades. Mi pasión por el desarrollo web me ha llevado a ampliar mis habilidades, dominando tanto el frontend como el backend. Estoy siempre en busca de nuevos desafíos y oportunidades para seguir aprendiendo y aplicando lo último en tecnología web. ¡Explora mi trabajo y no dudes en contactarme!
+            Actualmente, soy estudiante de Desarrollo de Aplicaciones Web (DAW) y estoy cursando un Máster en Full Stack. Durante los últimos 7 años, he trabajado con WordPress, desarrollando soluciones personalizadas y optimizadas para diversas necesidades. 
         </p>
         <p class="description">
             Mi pasión por el desarrollo web me ha llevado a ampliar mis habilidades, dominando tanto el frontend como el backend. Estoy siempre en busca de nuevos desafíos y oportunidades para seguir aprendiendo y aplicando lo último en tecnología web. ¡Explora mi trabajo y no dudes en contactarme!
