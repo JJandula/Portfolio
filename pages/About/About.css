@@ -131,3 +131,12 @@
 .aboutphoto > img:hover{
   box-shadow: 0 0 20px var(--highlight), 0 0 70px var(--highlight);
 }
+
+.light .aboutphoto > img{
+  border: 2px solid var(--bg-dark);
+  box-shadow: 0 0 20px var(--bg-dark), 0 0 30px var(--bg-dark);
+}
+
+.light .aboutphoto > img:hover{
+  box-shadow: 0 0 20px var(--bg-dark), 0 0 70px var(--bg-dark);
+}
