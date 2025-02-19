@@ -37,15 +37,22 @@
 }
 
 
+.light .home > h1 {
+  text-shadow: 0 0 5px var(--bg-dark), 0 0 50px var(--bg-dark);
+  background-color: var(--bg-dark);
+}
+
 @media (max-width: 737px) {
   .home {
     padding: 0 4rem;
   }
-}
+  .light .home > h1 {
+    text-shadow: 0 0 0px var(--bg-dark), 0 0 30px var(--bg-dark);
+  }
+  .home > h1 {
+    text-shadow: 0 0 0px var(--bg-light), 0 0 30px var(--bg-light);
+  }
 
-.light .home > h1 {
-  text-shadow: 0 0 5px var(--bg-dark), 0 0 50px var(--bg-dark);
-  background-color: var(--bg-dark);
 }
 
 
