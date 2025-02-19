@@ -29,17 +29,14 @@ export const About = () => {
 
         <ul class="hobbiesList">
         <h3 class="hobbies">Studies</h3>
-            <li>    
-                <span class="icon">📖</span> - Educación Secundaria Obligatoria - "ESO"
-            </li>
-            <li>
-                <span class="icon">💻</span> - FP Grado medio: Sistemas microinformáticos y redes - "SMIX"
-            </li>
-            <li>
-                <span class="icon">👨‍💻</span> - FP Grado superior: Desarrollo de Aplicaciones Web - "DAW"
-            </li>
             <li>
                 <span class="icon">👨‍💻</span> - Máster de Especialización: Desarrollo Full Stack
+            </li>
+            <li>
+                <span class="icon">👨‍💻</span> - Grado Superior: Desarrollo de Aplicaciones Web - "DAW"
+            </li>
+            <li>
+                <span class="icon">💻</span> - Grado Medio: Sistemas Microinformáticos y Redes - "SMR"
             </li>
         </ul>
 
