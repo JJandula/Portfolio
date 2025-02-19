@@ -14,7 +14,7 @@
   letter-spacing: 1px;
   font-size: 5rem;
   text-align: center;
-  text-shadow: 0 0 5px var(--bg-light), 0 0 50px var(--bg-light);
+  text-shadow: 0 0 5px var(--bg-light), 0 0 50px var(--highlight);
   background-color: var(--bg-light);
   /* background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%); */
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@
     text-shadow: 0 0 0px var(--bg-dark), 0 0 20px var(--bg-dark);
   }
   .home > h1 {
-    text-shadow: 0 0 0px var(--bg-light), 0 0 20px var(--bg-light);
+    text-shadow: 0 0 0px var(--bg-light), 0 0 20px var(--highlight);
   }
 
 }
