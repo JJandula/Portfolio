@@ -20,6 +20,10 @@ This is my personal portfolio website, developed using Vite for fast and optimiz
 
 <br>
 
+[![Skills](https://skillicons.dev/icons?i=vite,js,html,css,github)](https://skillicons.dev)
+
+<br>
+
 Feel free to explore and check out my work!
 
 ### 🌎 - https://jjportfolioweb.netlify.app/
